@@ -1,6 +1,7 @@
 #! /bin/bash
 
-sudo du -s --block-size=1 /var/lib/docker/aufs
+#du -s -B 1 /var/lib/docker/aufs
+du -s -B 1 /Users/srp33/Library/Containers/com.docker.docker/Data/vms
 
 # Before building data layer:
 # 111763021824	/var/lib/docker/aufs
